@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "clear": "rimraf dist",
-    "build:multi-entry": "npm run clear && webpack --config config/webpack.config.js"
+    "build:multi-entry": "npm run clear && webpack --config config/webpack.config.js",
+    "build:multi-entry-function": "npm run clear && webpack --config config/webpack.config-function.js"
   },
   "keywords": [],
   "author": "",
